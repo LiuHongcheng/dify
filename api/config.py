@@ -250,6 +250,12 @@ class Config:
         self.GOOGLE_STORAGE_BUCKET_NAME = get_env('GOOGLE_STORAGE_BUCKET_NAME')
         self.GOOGLE_STORAGE_SERVICE_ACCOUNT_JSON_BASE64 = get_env('GOOGLE_STORAGE_SERVICE_ACCOUNT_JSON_BASE64')
 
+        # Huawei Storage settings
+        self.OBS_ACCESS_KEY = get_env('OBS_ACCESS_KEY')
+        self.OBS_SECRET_KEY = get_env('OBS_SECRET_KEY')
+        self.OBS_SERVER = get_env('OBS_SERVER')
+        self.OBS_BUCKET_NAME = get_env('OBS_BUCKET_NAME')
+        
         # ------------------------
         # Vector Store Configurations.
         # Currently, only support: qdrant, milvus, zilliz, weaviate, relyt, pgvector

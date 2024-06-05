@@ -83,3 +83,4 @@ oss2==2.18.5
 pgvector==0.2.5
 google-cloud-aiplatform==1.49.0
 vanna[postgres,mysql,clickhouse,duckdb]==0.5.5
+esdk-obs-python~=3.23.12
